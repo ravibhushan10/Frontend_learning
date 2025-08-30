@@ -54,3 +54,18 @@ const obj2={c:3,d:4};
 
 const obj3=Object.assign({},obj1,obj2);
 console.log(obj3,obj2,obj1);
+
+
+Object.freeze(obj1);
+// when object is freeze then we can't add property ,delete and modify its value
+obj.name="ravi";
+obj.a=10;
+delete obj1.a;
+console.log(obj1);
+
+
+Object.seal(obj1);
+obj.name="ravi";
+obj.a=10;
+delete obj1.a;
+console.log(obj1);
