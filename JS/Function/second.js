@@ -28,4 +28,9 @@ let obj={
 function fun(obj2){
   console.log(obj.name,obj.amount);
 }
+
+// destructuring of object
+function fun({name,amount}){
+  console.log(name ,amount);
+}
 fun(obj);
