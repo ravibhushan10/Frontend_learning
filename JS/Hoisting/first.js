@@ -31,7 +31,7 @@ function greet(){
 // meet();    // here meet=undefinded ( so how you execute the undefined) so error
 
 let meet = function(){
-   console.log("hello second");
+   console.log("hello bro");
 }
 
 console.log(meet());     // not and error (after hoisting they initialize and used)

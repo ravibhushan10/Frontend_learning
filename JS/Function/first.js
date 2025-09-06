@@ -1,7 +1,7 @@
 // normal function
 function greet(){
     console.log("hello ravi");
-    console.log("kaise ho");
+    console.log("kaise ");
 }
 
 greet();
