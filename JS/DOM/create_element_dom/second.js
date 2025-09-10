@@ -13,7 +13,7 @@ par.appendChild(element);
 const element2=document.createAttribute("id");
 element2.value="first";
 
-// // Access to first list of file
+// // access to first list of file
 // const current=document.querySelectorAll('li');
 // current.setAttributeNode(element2);
 
