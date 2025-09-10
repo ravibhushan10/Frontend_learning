@@ -17,10 +17,10 @@ element2.value="first";
 // const current=document.querySelectorAll('li');
 // current.setAttributeNode(element2);
 
-// Access to second list
-const current=document.getElementById('root');
-console.log(current.children);
-current.children[1].setAttributeNode(element2);
+// access to second list
+const curr=document.getElementById('root');
+console.log(curr.children);
+curr.children[1].setAttributeNode(element2);
 
 
 
